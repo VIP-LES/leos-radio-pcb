@@ -6020,13 +6020,14 @@
 		(descr "Molex SMA RF Connectors, Edge Mount, https://tools.molex.com/pdm_docs/sd/732511150_sd.pdf")
 		(tags "sma edge")
 		(property "Reference" "ANT1"
-			(at 5.28 4.5 0)
+			(at 4.78 4.5 0)
 			(layer "F.SilkS")
 			(uuid "17d7a7e4-9963-403c-bff4-961ee49ba692")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
 				)
 			)
 		)
@@ -6758,13 +6759,14 @@
 		(descr "Molex SMA RF Connectors, Edge Mount, https://tools.molex.com/pdm_docs/sd/732511150_sd.pdf")
 		(tags "sma edge")
 		(property "Reference" "ANT2"
-			(at 5.28 4.5 0)
+			(at 4.78 4.5 0)
 			(layer "F.SilkS")
 			(uuid "b3b6d1c1-f286-4eb1-a1e5-bb4efaa97a31")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 1.5 1.5)
+					(thickness 0.3)
+					(bold yes)
 				)
 			)
 		)
@@ -22882,7 +22884,7 @@
 		(uuid "f9b3fbfc-3898-49b7-9b52-2f7b5673927d")
 	)
 	(gr_text "902-928MHz\n30 dBm\n50Ω"
-		(at 178 129.5 0)
+		(at 178 109.5 0)
 		(layer "F.SilkS")
 		(uuid "023b98ab-5729-452f-9d4b-a6085b76a291")
 		(effects
@@ -22906,18 +22908,6 @@
 			(justify left)
 		)
 	)
-	(gr_text "850MHz - 930MHz\n30 dBm"
-		(at 207 107.5 90)
-		(layer "F.SilkS")
-		(uuid "4edbf83c-0e23-4810-95a2-df0c0498e652")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify bottom)
-		)
-	)
 	(gr_text "DO NOT POWER ON \nWITHOUT ANTENNA CONNECTED"
 		(at 158 112.5 0)
 		(layer "F.SilkS")
@@ -22932,7 +22922,7 @@
 		)
 	)
 	(gr_text "433-470MHz\n30 dBm\n50Ω"
-		(at 178 109.5 0)
+		(at 178 129.5 0)
 		(layer "F.SilkS")
 		(uuid "7d50f767-8e80-425b-ab7e-5dfc2d5ae42a")
 		(effects
